@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    background-color: rgb(155, 175, 175);
+    margin: 0;
+}
+
+header{
+    display: flex;
+    background-color: rgba(226, 137, 29, 0.5);
+    
+}
+
+
+body{
+    background-color: rgb(70, 52, 87);
+    margin: 0 40px;
+    background-image: url(imagenes/fondo\ one.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100px;
+    padding: 20px;
+}
+nav a{
+    border-radius: 25px;
+    background-color: blue;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+main{
+    background-color: chartreuse;
+    height: 110vh;
+    margin: 0 40px;
+    background-image: url(imagenes/fondo\ one.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+    img{
+        width: 100%;
+    }
+    .row{
+        display: flex;
+        height: 250px;
+    }
+footer{
+    background-color: rgb(206, 116, 116);
+}
+.izquierda{
+background-color: aquamarine;
+}
+
+.derecha{
+background-color: rgb(201, 211, 211);
+
+}
+
+.logo{
+    margin-right: 30px;
+    margin-top: 15px;
+    padding: 15px;
+}
+
+.logo img{
+    border-radius: 50%;
+    width: 150px;
+}
+
+.galeria{
+    background-color: rgba(73, 48, 161, 0.5);
+    margin: 15px 0;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+
+}
+.galeria img{
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    border: 2px dashed rgb(211, 115, 134);
+}
+#diferente{
+    border-radius: 50%
+}
